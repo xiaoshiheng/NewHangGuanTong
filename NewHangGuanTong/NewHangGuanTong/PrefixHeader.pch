@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  NewHangGuanTong
+//
+//  Created by xiaoshiheng on 2024/4/19.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UtilsMacro.h"
+#import "UIMacro.h"
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <Masonry/Masonry.h>
+//#import "UIView+Layout.h"
+#import "UIView+XSHLayout.h"
+#import "UIColor+Function.h"
+#import "UIImage+Nomal.h"
+#import <MJRefresh/MJRefresh.h>
+#import "UIButton+ImgTitleLocation.h"
+#import "NSString+StringSize.h"
+//#import "BaseTableView.h"
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+//#import "BaseTabBarController.h"
+#import "NSNumber+FlickerNumber.h"
+#import "NSString+Regularization.h"
+#import "DataDes.h"
+#import "NSString+TimeInterval.h"
+#import <SDWebImage/UIButton+WebCache.h>
+#import "NSString+Name_IDCard_BankNum.h"
+#import "UIImage+Clipping.h"
+#import "NSString+UrlCode.h"
+#import <UIKit/UIKit.h>
+
+#import "UILabel+ChangeLineSpaceAndWordSpace.h"
+#import "NSObject+GetCurrentDate.h"
+#import "NoPasteTextField.h"
+
+#import <PGDatePicker/PGDatePicker.h>
+#import <PGDatePicker/PGDatePickManager.h>
+
+#import "UIImage+FixOrientation.h"
+#import "UILabel+AlignmentLeftAndRight.h"
+#import "UIAlertController+TextAliment.h"
+#import <ReactiveObjC.h>
+#import "NSObject+GetKeyWindow.h"
+#import "NSDate+LYWCalendar.h"
+
+#endif /* PrefixHeader_pch */
